@@ -691,3 +691,32 @@ img {
         width: 100%;
     }
 }
+   
+/* ---------- 2-COLUMN CATEGORY GRID ---------- */
+.category-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 720px;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.category-grid-2 .category-card {
+    padding: 56px 32px;
+}
+
+.category-grid-2 .category-icon {
+    font-size: 64px;
+}
+
+@media (max-width: 600px) {
+    .category-grid-2 {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .category-grid-2 .category-card {
+        padding: 40px 24px;
+    }
+    .category-grid-2 .category-icon {
+        font-size: 48px;
+    }
+}
