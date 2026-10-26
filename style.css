@@ -720,3 +720,61 @@ img {
         font-size: 48px;
     }
 }
+
+
+/* ---------- ABOUT PAGE STYLES ---------- */
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-wrapper h2 {
+    font-size: 28px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.content-wrapper h2:first-child {
+    margin-top: 0;
+}
+
+.content-wrapper p {
+    font-size: 16px;
+    color: var(--slate);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.content-list {
+    margin-bottom: 24px;
+    padding-left: 20px;
+}
+
+.content-list li {
+    font-size: 16px;
+    color: var(--slate);
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.content-list strong {
+    color: var(--charcoal);
+}
+
+.about-cta {
+    margin-top: 64px;
+    padding: 40px;
+    background: var(--cream);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.about-cta h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.about-cta p {
+    margin-bottom: 24px;
+    color: var(--slate-light);
+}
